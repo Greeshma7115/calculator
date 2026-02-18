@@ -1,7 +1,7 @@
 import streamlit as st
 from calc import *
 st.header('Calculator')
-st.write('This is the app for calculator')
+st.write('This is app for calculator')
 num1 = st.number_input('Enter the first number')
 num2 = st.number_input('Enter the second number')
 operator = st.selectbox('Select an operator', ['+', '-', '*', '/', '**', '%'])
