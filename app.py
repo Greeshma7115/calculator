@@ -19,6 +19,8 @@ if st.button('Calculate'):
             result = power(num1, num2)
         elif operator == '%':
             result = modulus(num1, num2)
+        elif operator == '//':
+            result = floor_division(num1, num2)
         st.success(f"{result}")
     except ValueError as e:
         st.error(f"Error: {e}. Please try again.")
